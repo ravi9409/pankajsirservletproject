@@ -1,0 +1,8 @@
+drop DATABASE jlcindiadb;
+CREATE DATABASE jlcindiadb;
+use jlcindiadb;
+create table customers(
+    cid int PRIMARY KEY AUTO_INCREMENT,
+    cname varchar(15),email varchar(15),
+    phone varchar(15), city varchar(15),bal double
+    );
